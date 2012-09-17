@@ -1,0 +1,9 @@
+sportama_homepage:
+    pattern:  /home
+    defaults: { _controller: SportamaMainBundle:Default:home }
+
+
+
+sportama_main_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: SportamaMainBundle:Default:index }
